@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de presupuesto mensual</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="re.js"></script>
+</head>
+<body>
+    <div class="container" id="Contenerdorprinci">
+        <div class="container-fluid">
+            <!-- Primera fila -->
+            <div class="row justify-content-center">
+                <div class="col-md-12" id="Contenerdorprimero">
+                    <script src="reloj.js"></script>
+                    <h1 id="Valorpresupuesto">$000.00</h1>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 mt-3" id="Contenerdorsumaingresos">
+                            <label for="Ingreso">Ingresos: 00.00 </label>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 mt-3" id="ContenerdorEngresos">
+                            <label for="Ingresos">Egresos: 00.00 </label>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 mt-3">
+                            <label for="nombre">Porcentaje de gastos</label>
+                        </div>
+                        <div class="col-md-2 mt-3">
+                            <label for="Nombre" class="Porcentaje">0%</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Segunda fila -->
+            <div class="row justify-content-center">
+                <div class="col-md-6" id="Contenerdorpaneles">
+                    <h2>Transacción</h2>
+                    <label for="seleccion">Selecciona(Ingreso/Egreso):</label>
+                    <select id="seleccion" name="ingreodegres">
+                        <option value="Ingreso">Ingreso</option>
+                        <option value="Egreso">Egreso</option>
+                    </select>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 mt-3">
+                            <input id="description" placeholder="Descripcion">
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-md-6 mt-3">
+                            <input type="number" id="income" placeholder="Monto">
+                        </div>
+                    </div>
+                    <button class="botonagregar" id="Calcular">Agregar</button>
+                </div>
+                <div class="col-md-6" id="Contenerdorpaneles">
+                    <div class="row justify-content-center">
+                        <div class="col-md-3 mt-3">
+                            <button class="botonesextra" id="verIngresos">Ingresos</button>
+                        </div>
+                        <div class="col-md-3 mt-3">
+                            <button class="botonesextra" id="verEgresos">Egresos</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 mt-3">
+                    <div id="Contenerdoringresos" class="registros">
+                        <h2>Ingresos</h2>
+                    </div>
+                    <div id="Contenerdoregresos" class="registros">
+                        <h2>Egresos</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

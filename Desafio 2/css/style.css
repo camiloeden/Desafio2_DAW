@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    
+}
+#Contenerdorprimero{
+    background-color: #9b92f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;   
+    text-align: center;
+    
+}
+
+#Contenerdorprinci{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;   
+    text-align: center;
+}
+#Contenerdorpaneles{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;   
+    text-align: center;
+}
+#app{
+   
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 50px; 
+    text-align: center;
+    margin-top: 50px;
+}
+#Contenerdoringresos{
+    
+    background-color: #ffffff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;   
+    text-align: center;
+    border: 2px solid #0c065a;
+}
+#ContenerdorEgresos{
+    
+    background-color: #13065e; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 5px;   
+    text-align: center;
+    border: 2px solid #0c065a;
+    color: #fff;
+}
+#seleccion{
+    background-color: #ffffff; 
+    padding: 5px;   
+    text-align: center;
+}
+.Porcentaje{
+    color: #0f0850
+}
+.botonagregar {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonagregar:hover {
+    background-color: #45a049;
+}
+.botonesextra {
+    background-color: #03144b;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonesextra:hover {
+    background-color: hsl(220, 100%, 1%);
+}
